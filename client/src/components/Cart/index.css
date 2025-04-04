@@ -1,0 +1,241 @@
+.app-container{
+    display: flex;
+    flex-direction: column;
+}
+.top-container{
+    display: flex;
+    flex-direction: column;
+}
+.products-heading{
+    font-family: 'Roboto';
+    font-size:20px;
+    color:black;
+    font-weight: 700;
+}
+.products-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.product-item{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: white;
+    width:200px;
+    height: 150px;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.product-name{
+    font-family: 'Roboto';
+    font-size:16px;
+    color:black;
+    font-weight: 600;
+}
+.product-price{
+    font-family: 'Roboto';
+    font-size:14px;
+    color:black;
+    font-weight: 600;
+}
+.add-to-cart-button{
+    background-color: #4657f2;
+    color:white;
+    font-family: 'Roboto';
+    font-size:14px;
+    font-weight: 400;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 40px;
+    width:100px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    border-width: 0px;
+    width: 100%;
+}
+.cart-items-container{
+    display: flex;
+    flex-direction: column;
+}
+.cart-items-heading{
+    font-family: 'Roboto';
+    font-size:20px;
+    color:black;
+    font-weight: 700;
+}
+.empty-cart-item-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+}
+.empty-cart-description{
+    font-family: 'Roboto';
+    font-size:12px;
+    color:rgb(87, 86, 86);
+    font-weight: 500;
+}
+.cart-items{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px 2px rgb(184, 182, 182);
+    background-color: white;
+    margin-left: 0px;
+}
+.cart-item{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.items-container{
+    display: flex;
+    flex-direction: column;
+}
+.item-name{
+    font-family: 'Roboto';
+    font-size:16px;
+    color:black;
+    font-weight: 600;
+}
+.item-price{
+    font-family: 'Roboto';
+    font-size:12px;
+    color:rgb(78, 77, 77);
+    font-weight: 400;
+}
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
+.minus-button{
+    background-color: rgb(244, 55, 55);
+    color:white;
+    padding-top:6px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-bottom: 6px;
+    width:30px;
+    height: 30px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    margin-right: 6px;
+}
+.plus-button{
+    background-color: rgb(66, 208, 66);
+    color:white;
+    padding-top:6px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-bottom: 6px;
+    width:30px;
+    height: 30px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+}
+.quantity{
+    font-family: 'Roboto';
+    font-size:12px;
+    color:black;
+    font-weight: 600;
+    margin-right: 6px;
+}
+.free-gift-button{
+    font-family: 'Roboto';
+    font-size:12px;
+    color:rgb(30, 122, 30);
+    width:100px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(208, 240, 208);
+    border-radius:20px;
+    font-weight: bold;
+}
+.cart-summary-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 150px;
+}
+.cart-summary-heading{
+    font-family: 'Roboto';
+    font-size:20px;
+    color:black;
+    font-weight: 700;
+}
+.cart-summary{
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    background-color: white;
+    border-radius: 8px;
+    padding-bottom: 10px;
+}
+.summary-subtotal-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.sub-total-heading{
+    font-family: 'Roboto';
+    font-size:16px;
+    color:black;
+    font-weight: 600;
+}
+.sub-total{
+    font-family: 'Roboto';
+    font-size:16px;
+    color:black;
+    font-weight: 600;
+}
+.horizontal-line{
+    width:98%;
+    border:1px solid rgb(214, 213, 213);
+}
+.progress-bar-container{
+    background-color: rgb(231, 231, 247);
+    border-radius:8px;
+    width: 98%;
+    height: 12px;
+    padding: 10px;
+    overflow: hidden;
+}
+.progress-bar-text{
+    font-family: 'Roboto';
+    font-size:16px;
+    color:black;
+    font-weight: 600;
+    padding: 10px;
+}
+.progress-bar-fill {
+    background-color: #4caf50;
+    height: 100%;
+    border-radius: 5px;
+    transition: width 0.3s ease-in-out;
+  }
+  .unlock-free-gift-text{
+    font-family: 'Roboto';
+    font-size:14px;
+    color:black;
+    padding: 10px;
+    font-weight: 600;
+  }
