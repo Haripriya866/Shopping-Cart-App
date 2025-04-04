@@ -105,14 +105,14 @@ const Cart=()=>{
                     
                         {(!qualifiesForGift) && (
                             <div>
-                                <p className='progress-bar-text'>Add ₹{amountRemaining} more to unlock a FREE Wireless Mouse!</p>
+                                <p className='progress-bar-text'>Add ₹{amountRemaining} more to get a FREE Wireless Mouse!</p>
                                 <Progress value={progress}/>
                             </div>
                         )}
                         {
                             qualifiesForGift && (
                                 <div>
-                                    <p className='unlock-free-gift-text'>You've unlocked the free gift!</p>
+                                    <p className='unlock-free-gift-text'>You got a free Wireless Mouse!</p>
                                 </div>
                             )
                         }
